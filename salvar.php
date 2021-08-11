@@ -1,8 +1,8 @@
 <?php
 
-$nome = $_GET['name'];
-$idade = $_GET['idade'];
-$chute = $_GET['chute'];
+$nome = $_POST['name'];
+$idade = $_POST['idade'];
+$chute = $_POST['chute'];
 
 $sorteio = rand(1,10);
 
@@ -18,4 +18,3 @@ if ($chute == $sorteio) {
     echo "ERROU-MIZERAVI!!<br>";
     echo "<img src='https://conteudo.imguol.com.br/c/bol/fotos/97/2018/01/10/faustao-mostrou-que-nem-sempre-quem-sabe-faz-ao-vivo-1515582826765_615x300.jpg'>";
 }
-
