@@ -11,4 +11,4 @@ Arquivo de frontend para envio das informações enviadas pelo usuário.
 
 - salvar.php
 
-Arquivo de backend onde serão realizadas as verificações e também haverá uma conenão com banco de dados mySQL para armazenamento das informações.
+Arquivo de backend onde serão realizadas as verificações e também haverá uma conenão com banco de dados MySQL para armazenamento das informações.
